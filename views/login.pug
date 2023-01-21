@@ -1,0 +1,38 @@
+extends base.pug
+
+block content
+    <div class="log_in_page">
+        <div>
+            <h1>Log-In</h1>
+        </div>
+
+        <div>
+            <form action="/login" method="post">
+                <div id="div1">
+                    <img src="/static/login.png" alt="Not loaded">
+                </div>
+                <div id="div2">
+                    <i class="fa-solid fa-envelope" id="email_icon"></i><input type="email" name="email" id="email" placeholder="Enter Your Email">
+                </div>
+                <div id="div3">
+                    <i class="fa-solid fa-lock" id="password_icon"></i><input type="password" name="password"  id="password" placeholder="Enter Your Password">
+                </div>
+                <div>
+                 <button>Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    block foot
+       <footer>
+        <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/">Help</a></li>
+            <li><a href="/">Blog</a></li>
+            <li><a href="/">Developers</a></li>
+            <li><a href="/">Terms & Conditions</a></li>
+            <li><a href="/">Privacy</a></li>
+            <li><a href="/">Press</a></li>
+            <li><a href="/">Privacy Notice</a></li>
+        </ul>
+    </footer>

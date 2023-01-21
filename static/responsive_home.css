@@ -1,0 +1,172 @@
+@media only screen and (max-width:1570px){
+    #log_in{
+        right: 100px;
+    }
+    #sign_up{
+        right: 10px;
+    
+        
+    }
+}
+
+@media only screen and (max-width:1208px){
+
+    #first_li{
+        margin-left: 200px;
+     }
+     nav h1{
+        left: 10px;
+    }
+}
+
+@media only screen and (max-width:990px){
+
+    #first_li{
+        margin-left: 0px;
+     }
+    
+     .p_opinions {
+        flex-direction: column;
+    }
+    .benefits_1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .benefits_2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer ul{
+        flex-direction: column;
+    }
+    footer{
+        background-color: rgb(226, 225, 225);
+    }
+    .p_opinions{
+        justify-content: center;
+        align-items: center;
+    }
+   
+
+
+    section h1{
+        width: 400px;
+       
+    }
+    
+    section p{
+       
+        width: 400px;
+       
+    }
+
+    .second_section h1{
+        
+        width: 500px;
+      
+    }
+    
+}
+
+@media only screen and (max-width:702px){
+
+    
+section h1{
+    font-size: 3rem;
+}
+section p{
+    font-size: 1rem;
+}
+#log_in{
+    top: 80px;
+    right: 80px;
+}
+#sign_up{
+    top: 80px;
+    right: 1px;
+}
+nav h1{
+    top: 50px;
+}
+}
+
+@media only screen and (max-width:612px){
+
+    
+nav ul li{
+    
+    margin: 0px 10px;
+}
+
+section h1{
+    width: 300px;
+   
+}
+
+section p{
+   
+    width: 300px;
+   
+}
+
+.second_section h1{
+    
+    width: 400px;
+  
+}
+}
+@media only screen and (max-width:424px){
+    section h1{
+        width: 200px;
+       
+    }
+    
+    section p{
+       
+        width: 200px;
+       
+    }
+    
+    .second_section h1{
+        
+        width: 200px;
+      
+    }
+}
+
+
+@media only screen and (max-width:380px){
+
+    .second_section h1{
+        font-size: 2rem;
+        
+    }
+    nav h1{
+        font-size: 1.3rem;
+        top: 65px;
+    }
+    nav ul li a{
+        font-size: 0.7rem;
+    }
+    #log_in{
+        padding: 4px 10px;
+    }
+    #sign_up{
+        padding: 4px 10px;
+    }
+    .third_section p{
+        width: 200px;
+    }
+    .second_section p{
+        width: 200px;
+       
+    }
+}
+
+
+
+
+

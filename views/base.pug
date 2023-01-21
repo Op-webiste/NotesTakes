@@ -1,0 +1,35 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    title NotesTakes.com
+    block style
+       style 
+        include ../static/style.css
+        include ../static/sign_up_page.css
+        include ../static/take_notes_page.css
+        include ../static/responsive_home.css
+        include ../static/responsive_sign_up_page.css
+        include ../static/responsive_takesnotes_page.css
+        include ../static/log_in_page.css
+
+  body
+    <nav>
+        <h1 class="logo">NotesTakes</h1>
+        <div>
+            <ul>
+                <li id="first_li"><a href="/">Home</a></li>
+                <li id='second_li'><a id="disabled_link" href="#">Take Notes</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+                <li id="log_in"><a href="/login">Log In</a></li>
+                <li id="sign_up"><a href="/signup">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+    block content
+    block scripts
+      script(src='../static/index.js')
+    <script src="https://kit.fontawesome.com/1204be9cc5.js" crossorigin="anonymous"></script>

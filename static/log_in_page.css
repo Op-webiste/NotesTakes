@@ -1,0 +1,60 @@
+.log_in_page{
+    background-color: rgb(206, 231, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 90px;
+    margin-top: 100px;
+}
+
+.log_in_page form #div1 img{
+    height: 100px;
+    width: 100px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+form input{
+    padding: 15px 100px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+form #email_icon{
+    position: absolute;
+    top: 49.4%;
+    left: 40%;
+}
+
+form #password_icon{
+    position: absolute;
+    top: 58.5%;
+    left: 40%;
+}
+
+form button{
+    font-size: 1.3rem;
+    padding: 5px 30px;
+    background-color: rgb(250, 180, 51);
+color: white;
+border: none;
+border-radius: 10px;
+box-shadow: 1px 1px 2px rgb(250, 180, 51);
+cursor: pointer;
+margin-bottom: 100px;
+}
+
+
+form button:hover{
+box-shadow: 2px 2px 4px rgb(250, 180, 51);
+background-color: rgb(248, 165, 10);
+
+}

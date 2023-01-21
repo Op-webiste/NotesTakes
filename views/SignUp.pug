@@ -1,0 +1,45 @@
+extends base.pug
+
+block content 
+    <div class="sign_up_page">
+        <div>
+            <h1>Sign Up</h1>
+        </div>
+
+        <div>
+            <form action="/SignUp" method="post">
+                <div id="div1">
+                    <input type="text" name="firstname" id="firstname" placeholder="Enter Your First Name">
+                    <input type="text" name="lastname" id="lastname" placeholder="Enter Your Last Name">
+                </div>
+                <div id="div2">
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                    <input type="email" name="confirmemail" id="confirmemail" placeholder="Confirm Email">
+                </div>
+                <div id="div3">
+                    <input type="number" name="contact_number" id="contact_number" placeholder="Enter Your Contact No.">
+                    <input type="text" name="age" id="age" placeholder="Enter Your Age">
+                </div>
+                <div id="div4">
+                    <input type="password" name="password" id="password" placeholder="Enter Your Password">
+                    <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirm Password">
+                </div>
+                <div>
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    block foot
+       <footer>
+        <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/">Help</a></li>
+            <li><a href="/">Blog</a></li>
+            <li><a href="/">Developers</a></li>
+            <li><a href="/">Terms & Conditions</a></li>
+            <li><a href="/">Privacy</a></li>
+            <li><a href="/">Press</a></li>
+            <li><a href="/">Privacy Notice</a></li>
+        </ul>
+    </footer>

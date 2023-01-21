@@ -1,0 +1,48 @@
+.take_notes_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.take_notes_page input {
+    padding: 70px 200px;
+    font-size: 1.7rem;
+    border-radius: 40px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+#btn1 {
+    font-size: 1.3rem;
+    padding: 5px 30px;
+    border: none;
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 1px 1px 2px green;
+    cursor: pointer;
+}
+
+#btn1:hover {
+    background-color: rgb(4, 177, 4);
+
+}
+
+#btn2 {
+    padding: 5px 30px;
+    font-size: 1.3rem;
+    border: none;
+    background-color: rgb(224, 147, 4);
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgb(224, 147, 4);
+
+}
+
+#btn2:hover {
+    background-color: rgb(248, 161, 0);
+
+}
